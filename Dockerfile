@@ -1,5 +1,5 @@
 FROM node:18-alpine
-WORKDIR .
+WORKDIR /home/mhiltz/github-actions-ci-base/cpsy-350-ci-base
 COPY package*.json ./
 RUN npm install
 COPY . .
